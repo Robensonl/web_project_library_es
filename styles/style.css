@@ -19,7 +19,15 @@ body {
 .header {
   padding: 20px 0;
 }
+.header__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
 
+.header__address {
+  justify-content: flex-end;
+}
 .nav {
   display: flex;
   justify-content: space-between;
