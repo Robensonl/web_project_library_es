@@ -30,7 +30,6 @@ body {
   width: 58px;
   height: 80px;
 }
-
 .nav__links {
   display: flex;
   column-gap: 20px;
@@ -38,7 +37,6 @@ body {
   margin: 8px 0 0;
   padding: 0;
 }
-
 .nav__link {
   text-decoration: none;
   color: #000000;
@@ -90,13 +88,6 @@ body {
   justify-content: flex-end;
   box-sizing: border-box;
 }
-nav .nav__links {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  color: #2f80ed;
-  text-decoration: none;
-}
 
 .content {
   padding: 40px 0;
@@ -132,6 +123,7 @@ nav .nav__links {
 }
 
 .staff__cards {
+  padding: 0;
   max-width: 760px;
   margin: 68px auto 0;
   display: flex;
@@ -170,8 +162,9 @@ nav .nav__links {
 }
 
 .card__footer {
-  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
+  margin: 0;
+  margin-top: auto;
   color: #838383;
 }
