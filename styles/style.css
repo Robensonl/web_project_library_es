@@ -43,6 +43,13 @@ body {
   font-weight: bold;
 }
 
+.nav__link [href="#membership"] [href="#footer"] {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  scroll-behavior: smooth;
+}
+
 .header__link {
   color: #2f80ed;
   text-decoration: none;
@@ -90,7 +97,7 @@ body {
 }
 
 .content {
-  padding: 40px 0;
+  padding: 0;
 }
 
 /* Staff Section */
@@ -301,4 +308,138 @@ body {
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.step {
+  /* Agrega estilos */
+  background-color: #057bf2;
+  color: #ffffff;
+  border-radius: 6px;
+  flex-basis: 220px;
+  flex-direction: column;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: auto;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__column_content_hours {
+  margin-left: auto;
+  gap: 10px;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+  gap: 10px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  text-align: start;
+  font-size: 14px;
+  margin-top: 100px;
 }
