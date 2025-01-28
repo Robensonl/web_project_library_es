@@ -284,7 +284,7 @@ body {
 
 .person_name_tarter {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  top: 105px;
+  top: 79px;
   left: 159px;
 }
 
@@ -427,10 +427,6 @@ body {
   color: #ffffff;
   align-items: center;
   column-gap: 10px;
-}
-
-.footer__column-link:hover {
-  text-decoration: underline;
 }
 
 .footer__social-icon {
