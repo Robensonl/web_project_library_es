@@ -404,7 +404,8 @@ body {
 .footer__column-heading {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 0 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__list {
