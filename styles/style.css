@@ -107,8 +107,6 @@ body {
   padding: 0;
 }
 
-/* Staff Section */
-
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
@@ -171,14 +169,12 @@ body {
 
 .card__text {
   margin: 20px 0 0;
-  /*font-size: 15.8px;*/
-  font-size: 16px;
+  font-size: 15.8px;
   line-height: 24px;
 }
 
 .card__footer {
-  /*font-size: 16px;*/
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   margin: 0;
   margin-top: auto;
@@ -288,8 +284,8 @@ body {
 }
 
 .person_name_tarter {
-  /*top: 105px;*/
-  top: 79px;
+  top: 105px;
+  /*top: 79px;*/
   left: 159px;
 }
 
